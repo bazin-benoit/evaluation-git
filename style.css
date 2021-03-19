@@ -90,3 +90,10 @@ h1 {
   66%{background-image: url("image/inondations3.jpg");}
 }
 /*fin diapo*/
+.card{
+  background-color: #765E59;
+  margin: auto;
+}
+.card-text, h5{
+  color:white;
+}
