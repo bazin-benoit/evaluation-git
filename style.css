@@ -2,6 +2,7 @@ body {
   margin: 0px;
   width: 100%;
   font-family: 'Roboto', sans-serif;
+  background-color: rgb(192, 173, 149);
 }
 
 /* menu de navigation*/
@@ -21,15 +22,16 @@ nav li {
 
 nav a {
   font-size: 1em;
+  font-weight: bold;
   padding-bottom: 3px;
   text-decoration: none;
   margin: 0px;
-  color: white;
+  color:black;
 
 }
 
 nav a:hover {
-  color: black;
+  color:white;
 }
 
 /* fin de menu de navigation*/
@@ -90,10 +92,21 @@ h1 {
   66%{background-image: url("image/inondations3.jpg");}
 }
 /*fin diapo*/
+
+.carte{
+  display: flex;
+  margin-top: 130px;
+}
 .card{
-  background-color: #765E59;
+  border: 3px solid #765E59;
+  background-color:#765E59;
   margin: auto;
 }
-.card-text, h5{
-  color:white;
+.card-body, .card-text, h5{
+  color:black;
+  font-weight: bold;
+}
+img{
+  height: 200px;
+  width: 360px;
 }
