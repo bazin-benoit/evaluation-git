@@ -11,38 +11,41 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
     integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-  <title>AAS</title>
+  <title>Secours Populaire Francais.</title>
 </head>
 
 <body>
 
-  <!--debut haut de page-->
+  <!--debut header-->
   <header>
 
-    <nav class="navbar">
+    <nav id="navbar">
       <ul>
-        <li class="section1"><a href="#">section1</a></li>
-        <li class="section2"><a href="#">section2</a></li>
-        <li class="section3"><a href="#">section3</a></li>
-        <li class="contact"><a href="#">contact</a></li>
+        <li class="demarches"><a href="#carte">démarches</a></li>
+        <li class="contact"><a href="#map-contact">contact</a></li>
+        <li class="evenements"><a href="page2/page2.html">événements</a></li>
       </ul>
     </nav>
-    <h1>Aide Aux Sinistrés</h1>
+    <h1>Secours Populaire Francais.</h1>
+    <h2>Aide Aux Sinistrés</h2>
     <div class="diapo1"></div>
 
   </header>
-  <!--fin haut de page-->
+  <!--fin header-->
 
-  <!--debut du contenu principale-->
-  <main class="carte">
+  <!--debut card-->
+  <main id="carte">
 
     <div class="card" style="width: 18rem;">
       <img src="image/qui.jpg" class="card-img-top" alt="qui">
       <div class="card-body">
         <h5 class="card-title">Qui sommes nous?</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-          content.</p>
-        <a href="#" class="btn btn-primary">retour menu</a>
+        <p class="card-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Fusce ut faucibus dolor.
+          Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+        </p>
+        <a href="#navbar">retour menu</a>
       </div>
     </div>
 
@@ -50,55 +53,68 @@
       <img src="image/main.jpg" class="card-img-top" alt="main">
       <div class="card-body">
         <h5 class="card-title">Démarches sinistrés.</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-          content.</p>
-        <a href="#" class="btn btn-primary">retour menu</a>
+        <p class="card-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Fusce ut faucibus dolor.
+          Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+        </p>
+        <a href="#navbar">retour menu</a>
       </div>
     </div>
 
     <div class="card" style="width: 18rem;">
-      <img src="image/magasin.jpg.crdownload" class="card-img-top" alt="magasin">
+      <img src="image/bricolage.jpg" class="card-img-top" alt="magasin">
       <div class="card-body">
         <h5 class="card-title">Liste des besoins.</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-          content.</p>
-        <a href="#" class="btn btn-primary">retour menu</a>
+        <p class="card-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Fusce ut faucibus dolor.
+          Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+        </p>
+        <a href="#navbar">retour menu</a>
       </div>
     </div>
-    <!--fin contenu principale-->
-
-
-    <!--carte a mettre a la place de l'ancienne-->
-    <!-- <div class="card mb-3" style="max-width: 100%;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="image/qui.jpg" alt="qui">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Qui sommes nous?</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted"></small></p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card mb-3" style="max-width: 100%;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="image/main.jpg" alt="qui">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Démarches pour les sinistrés.</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted"></small></p>
-                </div>
-              </div>
-            </div>
-          </div>-->
-    <!--fin de carte-->
   </main>
+  <!--fin card-->
+
+
+  <!--debut map et contact-->
+  <section id="map-contact">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d710028.3981221485!2d-1.379863419169313!3d45.96030463902902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48015254fb6fb9e1%3A0xcd61b7992d8cdbd8!2sSecours%20populaire%20fran%C3%A7ais%20Charente-Maritime!5e0!3m2!1sfr!2sfr!4v1616593534240!5m2!1sfr!2sfr"
+      width="600" height="450" style="border:3px solid #765E59;" allowfullscreen="" loading="lazy"></iframe>
+
+    <form method="post" action="traitement.php">
+      <fieldset>
+        <legend>Formulaire de contact</legend>
+      </fieldset>
+
+      <label for="Name"></label>
+      <p><input type="text" name="Name" id="Name" placeholder="nom" required /></p>
+
+      <label for="name"></label>
+      <p><input type="text" name="name" id="name" placeholder="prénom" required /></p>
+
+      <label for="Email"></label>
+      <p><input type="email" name="Email" id="Email" placeholder="Email" required /></p>
+
+      <label for="submit"></label>
+      <input type="submit" name="submit" id="submit" value="submit" />
+    </form>
+  </section>
+  <p id="retour"><a href="#navbar">retour</a></p>
+  <!--fin map et contact-->
+
+  <!--debut footer-->
+  <footer class="footer">
+          <p class="copyright-text">Copyright &copy; 2021 Tous droits réservés par secours populaire.
+            <a href="mentions legales">mentions légales</a></p>
+          <ol class="reseaux">
+            <li><a class="facebook" href="https://fr-fr.facebook.com/">facebook</a></li>
+            <li><a class="twitter" href="https://twitter.com/?lang=fr">twitter</a></li>
+            <li><a class="linkedin" href="https://fr.linkedin.com/">linkedin</a></li>   
+          </ol>
+  </footer>
 </body>
 
 </html>

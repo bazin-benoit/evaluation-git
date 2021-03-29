@@ -36,8 +36,8 @@ nav a:hover {
 
 /* fin de menu de navigation*/
 
-/* titre h1 */
-h1 {
+/* titre h1 h2 */
+h1,h2 {
   text-align: center;
   font-size: 5em;
   font-weight: bold;
@@ -45,7 +45,11 @@ h1 {
   margin-bottom: 5%;
 }
 
-/* fin titre h1*/
+h2{
+font-size: 3em;
+}
+
+/* fin titre h1 h2*/
 
 /*debut diapo*/
 .diapo1 {
@@ -92,8 +96,8 @@ h1 {
   66%{background-image: url("image/inondations3.jpg");}
 }
 /*fin diapo*/
-
-.carte{
+/*debut card*/
+#carte{
   display: flex;
   margin-top: 130px;
 }
@@ -109,4 +113,55 @@ h1 {
 img{
   height: 200px;
   width: 360px;
+}
+/*fin card*/
+
+/*debut map-contact*/
+
+#map-contact{
+  margin-top: 130px;
+  display: flex;
+  justify-content:space-evenly;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #765e59;
+  padding: 40px;
+}
+
+legend{
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+input {
+width: 190px;
+margin-bottom: 20px;
+font-weight: bold;
+}
+#retour {
+font-size: 2em;
+font-weight: bold;
+text-align: center;
+margin-top: 50px;
+}
+/*fin map-contact*/
+/*debut footer*/
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100px;
+  margin-top: 50px;
+  background-color: #765E59;
+}
+ol li{
+  list-style: none;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.copyright-text{
+  margin-top: 30px;
+  font-weight: bold;
 }
