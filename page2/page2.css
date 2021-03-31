@@ -35,7 +35,6 @@ h2 {
 #card-main {
   margin-top: 80px;
 }
-
 .card {
   border: 3px solid #765E59;
   background-color: #765E59;
@@ -45,7 +44,10 @@ h2 {
 .card-title {
   margin-bottom: 50px;
 }
-
+.card-body{
+  height:360px;
+  margin-left: 70px;
+}
 .card-body,
 .card-text,
 h5 {
