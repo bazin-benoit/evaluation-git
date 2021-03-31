@@ -210,3 +210,47 @@ ol li {
 a {
   text-decoration: none;
 }
+
+/*media queries, responsive design*/
+@media screen and (max-width: 871px) {
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  nav li {
+    font-size: 1em;
+  }
+
+  .diapo1 {
+    display: none;
+  }
+
+  #carte {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    margin-bottom: 40px;
+  }
+
+  iframe {
+    display: none;
+  }
+}
+
+@media screen and (max-width:576px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  .reseaux {
+    display: none;
+  }
+}
+
+/*fin media queries, responsive design*/

@@ -35,6 +35,7 @@ h2 {
 #card-main {
   margin-top: 80px;
 }
+
 .card {
   border: 3px solid #765E59;
   background-color: #765E59;
@@ -44,10 +45,12 @@ h2 {
 .card-title {
   margin-bottom: 50px;
 }
-.card-body{
-  height:360px;
+
+.card-body {
+  height: 360px;
   margin-left: 70px;
 }
+
 .card-body,
 .card-text,
 h5 {
@@ -63,6 +66,7 @@ img {
 span {
   color: blue;
 }
+
 /*fin événement*/
 
 #retour {
@@ -92,3 +96,45 @@ ol li {
   margin-top: 30px;
   font-weight: bold;
 }
+
+/*fin footer*/
+
+/* media queries, responsive design*/
+@media screen and (max-width: 1040px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-text,
+  .card-title {
+    margin-bottom: 0;
+  }
+
+  .card-body {
+    margin-left: 0;
+    height: auto;
+  }
+
+  #card-main {
+    margin: auto;
+  }
+
+  img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 592px) {
+
+  h1,
+  h2 {
+    font-size: 2em;
+  }
+
+  .reseaux {
+    display: none;
+  }
+}
+
+/*fin media queries, responsive design*/
